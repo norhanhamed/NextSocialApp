@@ -74,9 +74,7 @@ export default function Sidebar({
                 key={item.href}
                 href={item.href}
                 onClick={onClose}
-                className="flex items-center gap-3 rounded-lg px-3 py-3
-                  text-gray-700 transition-colors
-                  hover:bg-blue-50 hover:text-blue-600"
+                className="flex items-center gap-3 rounded-lg px-3 py-3 text-gray-700 transition-colors hover:bg-blue-50 hover:text-blue-600"
               >
                 <Icon size={21} />
                 <span>{item.label}</span>
@@ -89,9 +87,7 @@ export default function Sidebar({
         <div className="mt-6 border-t pt-4">
           <button
             type="button"
-            className="flex w-full items-center gap-3 rounded-lg
-              px-3 py-3 text-gray-700 transition-colors
-              hover:bg-red-50 hover:text-red-600"
+           className="flex w-full items-center gap-3 rounded-lg px-3 py-3 text-gray-700 transition-colors hover:bg-red-50 hover:text-red-600"
             onClick={() => {
               onClose();
               alert("Logout will be implemented later");
